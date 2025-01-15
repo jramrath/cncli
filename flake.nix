@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     utils.url = "github:kreisys/flake-utils";
-    rust-nix.url = "github:input-output-hk/rust.nix/work";
+    rust-nix.url = "github:input-output-hk/rust.nix";
     rust-nix.inputs.nixpkgs.follows = "nixpkgs";
     iohk-nix = {
       url = "github:input-output-hk/iohk-nix";
